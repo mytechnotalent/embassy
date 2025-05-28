@@ -1,4 +1,4 @@
-//! This example test the RP Pico W on board LED.
+//! This example tests the RP Pico W on-board LED.
 //!
 //! It does not work with the RP Pico board. See blinky.rs.
 

@@ -109,3 +109,6 @@ opt-level = "z"
 [[bin]]
 name = "wifi_blinky"
 path = "src/code/wifi_blinky.rs"
+
+[lib]
+test = false
