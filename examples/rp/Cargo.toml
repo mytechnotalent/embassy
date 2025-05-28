@@ -57,7 +57,6 @@ cyw43 = { version = "0.3.0", path = "../../cyw43", features = [
 cyw43-pio = { version = "0.4.0", path = "../../cyw43-pio", features = [
     "defmt",
 ] }
-test = { version = "0.0.0", features = ["unstable"] }
 
 defmt = "1.0.1"
 defmt-rtt = "1.0.0"
@@ -110,8 +109,10 @@ opt-level = "z"
 [[bin]]
 name = "wifi_blinky"
 path = "src/code/wifi_blinky.rs"
+test = false
+bench = false
 
 [lib]
 name = "embassy_rp_examples"
-
-
+test = false
+bench = false
