@@ -107,8 +107,8 @@ lto = true
 opt-level = "z"
 
 [[bin]]
-name = "wifi_blinky"
-path = "src/code/wifi_blinky.rs"
+name = "spi_display"
+path = "src/code/spi_display.rs"
 test = false
 bench = false
 
